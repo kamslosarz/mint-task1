@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" backupStaticAttributes="false" colors="true"
+         stopOnFailure="true" backupGlobals="false" bootstrap="bootstrap.php" processIsolation="true">
+    <coverage>
+        <include>
+            <directory>.</directory>
+        </include>
+    </coverage>
+    <testsuite name="Application Test Suite">
+        <directory>.</directory>
+    </testsuite>
+</phpunit>
